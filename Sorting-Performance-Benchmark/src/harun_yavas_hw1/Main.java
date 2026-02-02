@@ -66,8 +66,7 @@ public class Main {
         System.out.println("║ 0. Exit                                  ║");
         System.out.println("╚══════════════════════════════════════════╝");
     }
-    
-    // PART A - Tek dosya sıralama
+
     private static void runPartA(Scanner scanner) {
         System.out.println("\n--- PART A: Sorting File ---");
         
@@ -100,8 +99,7 @@ public class Main {
             System.err.println("✗ ERROR: " + e.getMessage());
         }
     }
-    
-    // PART B - Test dosyaları oluştur
+
     private static void runFileGenerator() {
         System.out.println("\n--- PART B: Test Files are Being Created ---");
         
@@ -125,7 +123,6 @@ public class Main {
         System.out.println("\n" + successCount + "/" + sizes.length + " dosya başarıyla oluşturuldu!");
     }
     
-    // PART B - Toplu test ve performans analizi
     private static void runBatchTester() {
         System.out.println("\n╔════════════════════════════════════════╗");
         System.out.println("║      PERFORMANS ANALİZİ BAŞLIYOR         ║");
@@ -378,8 +375,6 @@ public class Main {
     private static String formatNumber(int num) {
         return String.format("%,d", num);
     }
-    
-    // İç sınıflar
     
     static class TestResult {
         String filename;
