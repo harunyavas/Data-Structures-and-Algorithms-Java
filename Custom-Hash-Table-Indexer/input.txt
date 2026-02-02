@@ -1,0 +1,10 @@
+The STM32 is a state-of-the-art microcontroller series.
+Embedded-systems engineers love using C++ and C-sharp!
+(Wait), is it "C-sharp" or "C#"? It's often debated.
+Don't worry about the hardware; focus on the soft-ware.
+Re-read the datasheet... re-read it again!
+Loop loop Loop LOOP.
+High-pass-filter and low-pass-filter design is crucial.
+Testing: one, two, three. Testing... 1-2-3?
+'Run' the code. Run, run, run!
+State-of-the-art? Yes, truly state-of-the-art.
